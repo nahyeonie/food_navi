@@ -1,0 +1,188 @@
+@font-face {
+  font-family: 'BM DoHyeon OTF';
+  font-style: normal;
+  font-weight: normal;
+  src:  url('library/fonts/BMDOHYEON_otf.otf') format('truetype');
+}
+html{
+  background: #fff;
+  font-family: "BM DoHyeon OTF";
+}
+
+a{
+  text-decoration: none;
+}
+.container{
+  width:1024px;
+  margin-right: auto;
+  align-items: center;
+  margin-left: auto;
+}
+.nav{
+  background: #fff;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.korean{
+  /*background: rgb(139, 120, 135);*/
+  height: 256px;
+
+}
+.japanese{
+  /*background: rgb(136, 128, 134);*/
+  height: 256px;
+  width: 1024px;
+}
+.american{
+  /*background: rgb(110, 90, 100);*/
+  height: 256px;
+  width: 1024px;
+
+}
+.dessert{
+  /*background: rgb(161, 145, 157);*/
+  height: 256px;
+}
+.menu{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.logo{
+  margin-right: 30px;
+}
+.wrap{
+  width: 300px;
+  float: right;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.search{
+  border-radius: 30px;
+  font-family: 'Fjalla One', sans-serif;
+  width: 200px;
+}
+.submit{
+  border-radius: 20px;
+  background: rgb(110, 110, 110);
+}
+.nav{
+  margin-top: 30px;
+}
+.nav ul{
+  display: flex;
+}
+.nav li{
+  margin-right: 30px;
+  list-style: none;
+  margin-top: 20px;
+}
+.nav a{
+  color: rgb(54, 54, 54);
+  font-size: 1.3rem;
+  font-family: 'Fjalla One', sans-serif;
+}
+.korean, .japanese, .chinese, .american, .dessert{
+  display: flex;
+  height: 256px;
+  width: 1024px;
+}
+.footer{
+  height: 200px;
+  width: 100%;
+  background: rgba(224, 224, 224, 0.4);
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact{
+  font-size: 1.7em;
+  position: relative;
+  left: 250px;
+  top: 30px;
+  font-weight: bold;
+  font-family: 'Fjalla One', sans-serif;
+}
+.social{
+  width: 500px;
+  position: relative;
+  left: 600px;
+  top: 80px;
+}
+.social img{
+  margin-left: 10px;
+}
+.links{
+  display: flex;
+  font-family: 'Fjalla One', sans-serif;
+  background: rgba(224, 224, 224, 0.4);
+  height: 100px;
+  align-items: center;
+}
+.links-pos{
+  margin-left: 350px;
+}
+.links a{
+  color: rgb(128, 128, 128);
+  margin-right: 100px;
+}
+/*.right{
+  position: relative;
+  left: 256px;
+}
+.left{
+  position: relative;;
+  right: 256px;*/
+
+.time{
+  font-size: 0.5em;
+  color: rgb(101, 101, 101)
+}
+
+.right{
+  margin-right: 256px;
+}
+.left{
+  margin-left: 256px;
+}
+.hover, .ko2, .ja1 {
+  transition: .3s ease-in-out;
+  display: inline-block;
+  position: relative;
+}
+.hover:hover img{
+  opacity: .5;
+}
+.hover:hover .info{
+  opacity: 1;
+  visibility: visible;
+}
+.hover:hover .info-left{
+  opacity: 1;
+  visibility: visible;
+}
+.info{
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  left: 260px;
+  bottom: 2px;
+  top: 2px;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Hanna';
+
+  }
+  .info-left{
+      width: 256px;
+      height: 256px;
+      position: absolute;
+      visibility: hidden;
+      opacity: 0;
+      right: 260px;
+      bottom: 2px;
+      top: 2px;
+      font-size: 1.5em;
+      text-align: center;
+      font-family: 'Hanna';
+  }
